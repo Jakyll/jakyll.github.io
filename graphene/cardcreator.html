@@ -1,0 +1,134 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="./app/css/cardcreator.css" type="text/css">
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" type="text/css">
+
+		<script src="./lib/angular.min.js" type="text/javascript"></script>
+
+		<title>
+			HELLO WORLD
+		</title>
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="row">
+					<nav class="navbar navbar-inverse navbar-static-top">
+						<div class="container">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="index.html">Graphene</a>
+							</div><!--navbar-header-->
+							<div>
+								<ul class="nav navbar-nav">
+									<li><a href="cardcreator.html">Card Creator</a></li>
+									<li><a href="#">Card List</a></li>
+									<li><a href="#">Mana Lore</a></li>
+								</ul>
+							</div>
+						</div><!--container-->
+					</nav><!--navbar navbar-inverse navbar-static-top-->
+				</div><!--row-->
+				
+				<div class="row">
+					<div class="page-header text-center">
+						<h1>Graphene <small>Card Creator</small></h1>
+					</div><!--page-header text-center-->
+				</div><!--row-->
+
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<form>
+							<div class="row">
+								<div class="form-group col-md-1">
+									<label for="manaNeutral">Neutral Mana</label>
+									<input type="number" class="form-control" id="manaNeutral" placeholder="Neutral">
+								</div><!--form-group col-md-1-->
+								<div class="form-group col-md-1">
+									<label for="manaOrdo">Ordo Mana</label>
+									<input type="number" class="form-control" id="manaOrdo" placeholder="Ordo">
+								</div><!--form-group col-md-1-->
+								<div class="form-group col-md-1">
+									<label for="manaTerra">Terra Mana</label>
+									<input type="number" class="form-control" id="manaTerra" placeholder="Terra">
+								</div><!--form-group col-md-1-->
+								<div class="form-group col-md-1">
+									<label for="manaIgnis">Ignis Mana</label>
+									<input type="number" class="form-control" id="manaIgnis" placeholder="Ignis">
+								</div><!--form-group col-md-1-->
+								<div class="form-group col-md-1">
+									<label for="manaNex">Nex Mana</label>
+									<input type="number" class="form-control" id="manaNex" placeholder="Nex">
+								</div><!--form-group col-md-1-->
+								<div class="form-group col-md-1">
+									<label for="manaMagicae">Magicae Mana</label>
+									<input type="number" class="form-control" id="manaMagicae" placeholder="Magicae">
+								</div><!--form-group col-md-1-->
+								<div class="form-group col-md-1">
+									<label for="manaAqua">Aqua Mana</label>
+									<input type="number" class="form-control" id="manaAqua" placeholder="Aqua">
+								</div><!--form-group col-md-1-->
+							</div><!--row-->
+
+							<div class="row">
+								<div class="form-group col-md-3">
+									<label for="cardName">Card Name</label>
+									<input type="text" class="form-control" id="cardName" placeholder="Name">
+								</div><!--form-group col-md-3-->
+								<div class="form-group col-md-3">
+									<label for="cardDescription">Card Description</label>
+									<textarea class="form-control" id="cardDescription" rows="3"></textarea>
+								</div><!--form-group col-md-3-->
+								<div class="form-group col-md-2">
+									<label for="cardType">Card Type</label>
+									<select class="form-control" id="cardType">
+										<option>Creature</option>
+										<option>Spell</option>
+									</select>
+								</div><!--form-group col-md-2-->
+								<div class="form-group col-md-2">
+									<label for="cardSubtype1">Card Subtype 1</label>
+									<select class="form-control" id="cardSubtype1">
+										<option>Angel</option>
+										<option>Warrior</option>
+										<option>Dragon</option>
+										<option>Orc</option>
+										<option>Goblin</option>
+										<option>Enchantment</option>
+										<option>Equipment</option>
+									</select>
+								</div><!--form-group col-md-2-->
+								<div class="form-group col-md-2">
+									<label for="cardSubtype2">Card Subtype 2</label>
+									<select class="form-control" id="cardSubtype2">
+										<option>Angel</option>
+										<option>Warrior</option>
+										<option>Dragon</option>
+										<option>Orc</option>
+										<option>Goblin</option>
+										<option>Enchantment</option>
+										<option>Equipment</option>
+									</select>
+								</div><!--form-group col-md-2-->
+							</div><!--row-->
+
+							<div class="row">
+								<div class="form-group col-md-1">
+									<label for="cardAttack">Attack</label>
+									<input type="number" class="form-control" id="cardAttack" placeholder="Attack">
+								</div><!--form-group col-md-1-->
+								<div class="form-group col-md-1">
+									<label for="manaDefence">Defence</label>
+									<input type="number" class="form-control" id="manaDefence" placeholder="Defence">
+								</div><!--form-group col-md-1-->
+							</div><!--row-->
+
+							<button type="submit" class="btn btn-default">Submit</button>
+						</form>
+					</div>
+				</div><!--panel panel-default-->
+			</div><!--col-md-8 col-md-offset-2-->
+		</div><!--container-fluid-->
+	</body>
+	<script src="./app/cardcreator.js" type="text/javascript"></script>
+</html>
